@@ -19,7 +19,7 @@ public class BankAccount3 implements Comparable {
     }
 
     public static void main(String [] args) {
-
+	int a = 0;
         BankAccount3 account = new BankAccount3(1000,.1f);
         BankAccount3 account2 = new BankAccount3(1000,.1f);
         account.processNYears(10);
